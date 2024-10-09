@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2888BEE2CB6C76400B19F46 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2888BED2CB6C76400B19F46 /* KeychainHelper.swift */; };
+		F2888BF02CB6CAFA00B19F46 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2888BEF2CB6CAFA00B19F46 /* Config.plist */; };
 		F28FFB592C94A3720001BEC7 /* MovieMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB582C94A3720001BEC7 /* MovieMateApp.swift */; };
 		F28FFB5B2C94A3720001BEC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB5A2C94A3720001BEC7 /* ContentView.swift */; };
 		F28FFB5D2C94A3720001BEC7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB5C2C94A3720001BEC7 /* Item.swift */; };
@@ -15,6 +17,28 @@
 		F28FFB6C2C94A3740001BEC7 /* MovieMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB6B2C94A3740001BEC7 /* MovieMateTests.swift */; };
 		F28FFB762C94A3740001BEC7 /* MovieMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB752C94A3740001BEC7 /* MovieMateUITests.swift */; };
 		F28FFB782C94A3740001BEC7 /* MovieMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB772C94A3740001BEC7 /* MovieMateUITestsLaunchTests.swift */; };
+		F28FFB862C94A3B50001BEC7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F28FFB852C94A3B50001BEC7 /* Kingfisher */; };
+		F28FFB892C94A3C20001BEC7 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = F28FFB882C94A3C20001BEC7 /* YouTubeiOSPlayerHelper */; };
+		F28FFB8B2C94A4330001BEC7 /* MovieServiceMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB8A2C94A4330001BEC7 /* MovieServiceMainThread.swift */; };
+		F28FFB8D2C94A44D0001BEC7 /* MovieServiceBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB8C2C94A44D0001BEC7 /* MovieServiceBackground.swift */; };
+		F28FFB902C94A4820001BEC7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB8F2C94A4820001BEC7 /* Movie.swift */; };
+		F28FFB922C94A4B60001BEC7 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB912C94A4B60001BEC7 /* Genre.swift */; };
+		F28FFB942C94A4C40001BEC7 /* MovieImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB932C94A4C40001BEC7 /* MovieImage.swift */; };
+		F28FFB962C94A4D90001BEC7 /* MovieVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB952C94A4D90001BEC7 /* MovieVideo.swift */; };
+		F28FFB982C94A4F00001BEC7 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB972C94A4F00001BEC7 /* MovieEntity.swift */; };
+		F28FFB9A2C94A5060001BEC7 /* GenreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB992C94A5060001BEC7 /* GenreEntity.swift */; };
+		F28FFB9D2C94A5470001BEC7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB9C2C94A5470001BEC7 /* MainViewModel.swift */; };
+		F28FFB9F2C94A55E0001BEC7 /* BackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFB9E2C94A55E0001BEC7 /* BackgroundViewModel.swift */; };
+		F28FFBA32C94A61E0001BEC7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBA22C94A61E0001BEC7 /* HomeView.swift */; };
+		F28FFBA52C94A6310001BEC7 /* RecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBA42C94A6310001BEC7 /* RecommendationsView.swift */; };
+		F28FFBA72C94A6410001BEC7 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBA62C94A6410001BEC7 /* FavoritesView.swift */; };
+		F28FFBA92C94A65B0001BEC7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBA82C94A65B0001BEC7 /* SearchView.swift */; };
+		F28FFBAB2C94A6700001BEC7 /* MoviesByGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBAA2C94A6700001BEC7 /* MoviesByGenreView.swift */; };
+		F28FFBAE2C94A6910001BEC7 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBAD2C94A6910001BEC7 /* MovieDetailView.swift */; };
+		F28FFBB02C94A6A00001BEC7 /* FullScreenGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBAF2C94A6A00001BEC7 /* FullScreenGalleryView.swift */; };
+		F28FFBB22C94A6B30001BEC7 /* MoviesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBB12C94A6B30001BEC7 /* MoviesGridView.swift */; };
+		F28FFBB42C94A6C40001BEC7 /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBB32C94A6C40001BEC7 /* MovieCardView.swift */; };
+		F28FFBB62C94A6D50001BEC7 /* YouTubePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FFBB52C94A6D50001BEC7 /* YouTubePlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2888BED2CB6C76400B19F46 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		F2888BEF2CB6CAFA00B19F46 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		F28FFB552C94A3720001BEC7 /* MovieMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28FFB582C94A3720001BEC7 /* MovieMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMateApp.swift; sourceTree = "<group>"; };
 		F28FFB5A2C94A3720001BEC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +72,26 @@
 		F28FFB712C94A3740001BEC7 /* MovieMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28FFB752C94A3740001BEC7 /* MovieMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMateUITests.swift; sourceTree = "<group>"; };
 		F28FFB772C94A3740001BEC7 /* MovieMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F28FFB8A2C94A4330001BEC7 /* MovieServiceMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceMainThread.swift; sourceTree = "<group>"; };
+		F28FFB8C2C94A44D0001BEC7 /* MovieServiceBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceBackground.swift; sourceTree = "<group>"; };
+		F28FFB8F2C94A4820001BEC7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F28FFB912C94A4B60001BEC7 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		F28FFB932C94A4C40001BEC7 /* MovieImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImage.swift; sourceTree = "<group>"; };
+		F28FFB952C94A4D90001BEC7 /* MovieVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVideo.swift; sourceTree = "<group>"; };
+		F28FFB972C94A4F00001BEC7 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		F28FFB992C94A5060001BEC7 /* GenreEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreEntity.swift; sourceTree = "<group>"; };
+		F28FFB9C2C94A5470001BEC7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F28FFB9E2C94A55E0001BEC7 /* BackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewModel.swift; sourceTree = "<group>"; };
+		F28FFBA22C94A61E0001BEC7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F28FFBA42C94A6310001BEC7 /* RecommendationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsView.swift; sourceTree = "<group>"; };
+		F28FFBA62C94A6410001BEC7 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		F28FFBA82C94A65B0001BEC7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F28FFBAA2C94A6700001BEC7 /* MoviesByGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesByGenreView.swift; sourceTree = "<group>"; };
+		F28FFBAD2C94A6910001BEC7 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		F28FFBAF2C94A6A00001BEC7 /* FullScreenGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenGalleryView.swift; sourceTree = "<group>"; };
+		F28FFBB12C94A6B30001BEC7 /* MoviesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesGridView.swift; sourceTree = "<group>"; };
+		F28FFBB32C94A6C40001BEC7 /* MovieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
+		F28FFBB52C94A6D50001BEC7 /* YouTubePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28FFB862C94A3B50001BEC7 /* Kingfisher in Frameworks */,
+				F28FFB892C94A3C20001BEC7 /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +124,7 @@
 		F28FFB4C2C94A3720001BEC7 = {
 			isa = PBXGroup;
 			children = (
+				F2888BEF2CB6CAFA00B19F46 /* Config.plist */,
 				F28FFB572C94A3720001BEC7 /* MovieMate */,
 				F28FFB6A2C94A3740001BEC7 /* MovieMateTests */,
 				F28FFB742C94A3740001BEC7 /* MovieMateUITests */,
@@ -97,8 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				F28FFB582C94A3720001BEC7 /* MovieMateApp.swift */,
-				F28FFB5A2C94A3720001BEC7 /* ContentView.swift */,
+				F28FFB8E2C94A4540001BEC7 /* Service */,
+				F28FFB9B2C94A5120001BEC7 /* Model */,
+				F28FFBA02C94A5AC0001BEC7 /* ViewModel */,
 				F28FFB5C2C94A3720001BEC7 /* Item.swift */,
+				F28FFBA12C94A5F40001BEC7 /* View */,
 				F28FFB5E2C94A3740001BEC7 /* Assets.xcassets */,
 				F28FFB602C94A3740001BEC7 /* Preview Content */,
 			);
@@ -130,6 +182,64 @@
 			path = MovieMateUITests;
 			sourceTree = "<group>";
 		};
+		F28FFB8E2C94A4540001BEC7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F28FFB8A2C94A4330001BEC7 /* MovieServiceMainThread.swift */,
+				F28FFB8C2C94A44D0001BEC7 /* MovieServiceBackground.swift */,
+				F2888BED2CB6C76400B19F46 /* KeychainHelper.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F28FFB9B2C94A5120001BEC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F28FFB8F2C94A4820001BEC7 /* Movie.swift */,
+				F28FFB912C94A4B60001BEC7 /* Genre.swift */,
+				F28FFB932C94A4C40001BEC7 /* MovieImage.swift */,
+				F28FFB952C94A4D90001BEC7 /* MovieVideo.swift */,
+				F28FFB972C94A4F00001BEC7 /* MovieEntity.swift */,
+				F28FFB992C94A5060001BEC7 /* GenreEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F28FFBA02C94A5AC0001BEC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F28FFB9C2C94A5470001BEC7 /* MainViewModel.swift */,
+				F28FFB9E2C94A55E0001BEC7 /* BackgroundViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F28FFBA12C94A5F40001BEC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F28FFB5A2C94A3720001BEC7 /* ContentView.swift */,
+				F28FFBA22C94A61E0001BEC7 /* HomeView.swift */,
+				F28FFBA42C94A6310001BEC7 /* RecommendationsView.swift */,
+				F28FFBA62C94A6410001BEC7 /* FavoritesView.swift */,
+				F28FFBA82C94A65B0001BEC7 /* SearchView.swift */,
+				F28FFBAC2C94A6750001BEC7 /* Others */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F28FFBAC2C94A6750001BEC7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F28FFBAA2C94A6700001BEC7 /* MoviesByGenreView.swift */,
+				F28FFBAD2C94A6910001BEC7 /* MovieDetailView.swift */,
+				F28FFBAF2C94A6A00001BEC7 /* FullScreenGalleryView.swift */,
+				F28FFBB12C94A6B30001BEC7 /* MoviesGridView.swift */,
+				F28FFBB32C94A6C40001BEC7 /* MovieCardView.swift */,
+				F28FFBB52C94A6D50001BEC7 /* YouTubePlayerView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +256,10 @@
 			dependencies = (
 			);
 			name = MovieMate;
+			packageProductDependencies = (
+				F28FFB852C94A3B50001BEC7 /* Kingfisher */,
+				F28FFB882C94A3C20001BEC7 /* YouTubeiOSPlayerHelper */,
+			);
 			productName = MovieMate;
 			productReference = F28FFB552C94A3720001BEC7 /* MovieMate.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +332,10 @@
 				Base,
 			);
 			mainGroup = F28FFB4C2C94A3720001BEC7;
+			packageReferences = (
+				F28FFB842C94A3B50001BEC7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F28FFB872C94A3C20001BEC7 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+			);
 			productRefGroup = F28FFB562C94A3720001BEC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28FFB622C94A3740001BEC7 /* Preview Assets.xcassets in Resources */,
+				F2888BF02CB6CAFA00B19F46 /* Config.plist in Resources */,
 				F28FFB5F2C94A3740001BEC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +379,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28FFBAB2C94A6700001BEC7 /* MoviesByGenreView.swift in Sources */,
 				F28FFB5B2C94A3720001BEC7 /* ContentView.swift in Sources */,
+				F28FFBB62C94A6D50001BEC7 /* YouTubePlayerView.swift in Sources */,
+				F28FFBA32C94A61E0001BEC7 /* HomeView.swift in Sources */,
+				F28FFB982C94A4F00001BEC7 /* MovieEntity.swift in Sources */,
+				F28FFB962C94A4D90001BEC7 /* MovieVideo.swift in Sources */,
+				F28FFB8B2C94A4330001BEC7 /* MovieServiceMainThread.swift in Sources */,
+				F28FFB902C94A4820001BEC7 /* Movie.swift in Sources */,
+				F28FFBB42C94A6C40001BEC7 /* MovieCardView.swift in Sources */,
+				F28FFBA92C94A65B0001BEC7 /* SearchView.swift in Sources */,
+				F28FFBB02C94A6A00001BEC7 /* FullScreenGalleryView.swift in Sources */,
+				F28FFB8D2C94A44D0001BEC7 /* MovieServiceBackground.swift in Sources */,
 				F28FFB5D2C94A3720001BEC7 /* Item.swift in Sources */,
+				F28FFB9A2C94A5060001BEC7 /* GenreEntity.swift in Sources */,
 				F28FFB592C94A3720001BEC7 /* MovieMateApp.swift in Sources */,
+				F28FFB942C94A4C40001BEC7 /* MovieImage.swift in Sources */,
+				F28FFB922C94A4B60001BEC7 /* Genre.swift in Sources */,
+				F28FFBA72C94A6410001BEC7 /* FavoritesView.swift in Sources */,
+				F28FFB9F2C94A55E0001BEC7 /* BackgroundViewModel.swift in Sources */,
+				F2888BEE2CB6C76400B19F46 /* KeychainHelper.swift in Sources */,
+				F28FFBAE2C94A6910001BEC7 /* MovieDetailView.swift in Sources */,
+				F28FFB9D2C94A5470001BEC7 /* MainViewModel.swift in Sources */,
+				F28FFBA52C94A6310001BEC7 /* RecommendationsView.swift in Sources */,
+				F28FFBB22C94A6B30001BEC7 /* MoviesGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2.4;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieMate/Preview Content\"";
 				DEVELOPMENT_TEAM = ASS4Y588W5;
 				ENABLE_PREVIEWS = YES;
@@ -432,18 +572,21 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = alexcerium.MovieMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,7 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2.4;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieMate/Preview Content\"";
 				DEVELOPMENT_TEAM = ASS4Y588W5;
 				ENABLE_PREVIEWS = YES;
@@ -461,18 +604,21 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = alexcerium.MovieMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -592,6 +738,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F28FFB842C94A3B50001BEC7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		F28FFB872C94A3C20001BEC7 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F28FFB852C94A3B50001BEC7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F28FFB842C94A3B50001BEC7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F28FFB882C94A3C20001BEC7 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F28FFB872C94A3C20001BEC7 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F28FFB4D2C94A3720001BEC7 /* Project object */;
 }
