@@ -52,7 +52,8 @@ class MainViewModel: ObservableObject {
         backgroundViewModel.fetchMoviesInternal(
             page: backgroundViewModel.currentPage,
             saveHandler: { await self.movieServiceMainThread?.saveMovies($0) },
-            appendHandler: { self.movies.append(contentsOf: $0) }
+            appendHandler: { self.movies.append(contentsOf: $0) },
+            completion: { self.isLoading = false }
         )
     }
 
@@ -63,7 +64,8 @@ class MainViewModel: ObservableObject {
             genreId: genreId,
             page: backgroundViewModel.currentPage,
             saveHandler: { await self.movieServiceMainThread?.saveMovies($0) },
-            appendHandler: { self.movies.append(contentsOf: $0) }
+            appendHandler: { self.movies.append(contentsOf: $0) },
+            completion: { self.isLoading = false }
         )
     }
 

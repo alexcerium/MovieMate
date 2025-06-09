@@ -30,7 +30,8 @@ class BackgroundViewModel {
         genreId: Int? = nil,
         page: Int,
         saveHandler: @escaping ([Movie]) async -> Void,
-        appendHandler: @escaping ([Movie]) -> Void
+        appendHandler: @escaping ([Movie]) -> Void,
+        completion: @escaping () -> Void = {}
     ) {
         guard page <= totalPages else { return }
 
@@ -46,6 +47,7 @@ class BackgroundViewModel {
                 if case let .failure(error) = completion {
                     print("Не удалось загрузить фильмы: \(error)")
                 }
+                completion()
             }, receiveValue: { response in
                 Task {
                     await saveHandler(response.results)
